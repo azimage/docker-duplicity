@@ -14,11 +14,6 @@
 
 FROM ubuntu:16.04
 
-ENV TMPDIR          ""
-ENV FTP_PASSWORD    ""
-ENV PASSPHRASE      ""
-ENV SIGN_PASSPHRASE ""
-
 CMD [ "/usr/bin/duplicity" ]
 
 # Prepare APT depedencies

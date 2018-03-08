@@ -35,32 +35,6 @@ Start Duplicity:
 
 **Success**. Duplicity will now backup the `/source` directory to `/target` directory with compression but no encryption and exit.
 
-### Environment Variables
-
-#### TMPDIR
-
-The directory to use for temporary files.
-
-Default: *NONE*
-
-#### FTP\_PASSWORD
-
-Supported by most backends which are password capable.
-
-Default: *NONE*
-
-#### PASSPHRASE
-
-This passphrase is passed to GnuPG.
-
-Default: *NONE*
-
-#### SIGN\_PASSPHRASE
-
-The passphrase to be used for --sign-key.
-
-Default: *NONE*
-
 Versioning
 ----------
 
