@@ -26,10 +26,11 @@ Start Duplicity:
 
     # Run as detach
     docker run \
+        -itd \
         --rm \
         --name duplicity \
-        --volume /source:/source \
-        --volume /target:/target \
+        --volume /tmp/source:/source \
+        --volume /tmp/target:/target \
         alvistack/docker-duplicity \
         duplicity --allow-source-mismatch --no-encryption /source file:///target
 
