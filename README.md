@@ -10,6 +10,12 @@ Duplicity backs directories by producing encrypted tar-format volumes and upload
 
 Learn more about Duplicity: <http://www.nongnu.org/duplicity/>
 
+Supported Tags and Respective `Dockerfile` Links
+------------------------------------------------
+
+-   [`latest` (master/Dockerfile)](https://github.com/alvistack/docker-duplicity/blob/master/Dockerfile)
+-   [`0.7` (0.7/Dockerfile)](https://github.com/alvistack/docker-duplicity/blob/0.7/Dockerfile)
+
 Overview
 --------
 
