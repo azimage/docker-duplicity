@@ -20,7 +20,7 @@ CMD        [ "/usr/bin/duplicity", "--help" ]
 # Prepare APT depedencies
 RUN set -ex \
     && apt-get update \
-    && DEBIAN_FRONTEND=noninteractive apt-get install -y curl duplicity \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y curl duplicity rsync openssh-client \
     && rm -rf /var/lib/apt/lists/*
 
 # Install dumb-init
