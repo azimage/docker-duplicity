@@ -14,7 +14,7 @@
 
 FROM ubuntu:16.04
 
-ENTRYPOINT [ "/usr/local/bin/dumb-init", "--" ]
+ENTRYPOINT [ "dumb-init", "--" ]
 CMD        [ "/usr/bin/duplicity", "--help" ]
 
 # Prepare APT depedencies
